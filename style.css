@@ -1,0 +1,96 @@
+/* -------CSS Reset ----------*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/* -----------navbar-section ------------*/
+
+#navbar {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+.logo {
+  position: relative;
+  left: 9vw;
+}
+.logo img {
+  height: 50px;
+  width: 90px;
+  margin-top: 10px;
+}
+#menu-list {
+  display: flex;
+  list-style: none;
+  position: relative;
+  left: 12vw;
+}
+.list-item {
+  margin: 10px 15px;
+}
+.list-item a {
+  text-decoration: none;
+  color: rgb(184, 203, 223);
+  font-size: 23px;
+}
+.list-item a.active {
+  color: black;
+}
+/* -------Button--Ist---Section---------- */
+
+.btn1 {
+  color: whitesmoke;
+  font-size: 18px;
+  background-color: #564ac8;
+  border-radius: 10px;
+  padding: 12px 25px;
+  position: relative;
+  left: 35vw;
+  border: none;
+}
+/*------------heading-pragraph-image-section ------------*/
+
+.heading-paragrapg-section {
+  width: 30vw;
+  position: absolute;
+  top: 30vh;
+  left: 8vw;
+}
+.heading-paragrapg-section h1 {
+  font-size: 60px;
+  padding: 20px auto;
+  line-height: 45pt;
+  color: #1d2050;
+}
+.heading-paragrapg-section h1 span {
+  color: #564ac8;
+}
+.heading-paragrapg-section p {
+  color: rgb(184, 203, 223);
+  font-size: 20px;
+  margin: 20px auto;
+  padding: 5px 0px;
+}
+
+/* -------Button--IInd---Section---------- */
+.btn2 {
+  color: whitesmoke;
+  font-size: 18px;
+  margin: 0px auto;
+  margin-top: 30px;
+  border-radius: 10px;
+  padding: 15px 20px;
+  border: none;
+  background-color: #564ac8;
+}
+/*----------big-image-section--------------- */
+
+.big-image {
+  position: absolute;
+  left: 40vw;
+  top: 20vh;
+}
+.big-image img {
+  height: 75vh;
+  width: 55vw;
+}
