@@ -5,6 +5,7 @@
 - CSS
 
 ----
+## [Deployed-link](https://e-marketing-landing-page.netlify.app/)
 
-![Image](img/Screenshot%20(358).png
-)
+
+![Image](img/Screenshot%20(358).png)
